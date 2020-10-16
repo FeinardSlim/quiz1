@@ -1,0 +1,111 @@
+/* initiation */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("../img/nav.jpg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* header */
+
+header {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+header h1 {
+    padding: 30px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/* main */
+
+main {
+    margin: 20px;
+}
+
+.col-sm {
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 0.2 rgb(0, 0, 0);
+    overflow: hidden;
+    position: relative;
+    color: #eeeeee;
+    padding: 20px;
+    --webkit-transision: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 0.0);
+    border: 0px solid rgb(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 0.2 rgb(0, 0, 0);
+    color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.text-js {
+    opacity: 0;
+    font-size: large;
+}
+
+#mainheader {
+    font-size: large;
+    color: white;
+}
+
+#mainheader {
+    font-size: 30px;
+}

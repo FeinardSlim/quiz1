@@ -1,0 +1,130 @@
+/* initial */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    padding-bottom: 80px;
+    margin: 0;
+}
+
+main {
+    margin: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.source {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+
+/* header */
+
+button {
+    background: none;
+    padding: 0;
+    border: 0;
+}
+
+.containers {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containers .centerH {
+    position: absolute;
+    font-weight: lighter;
+    font-size: 120px;
+    text-shadow: 2px 5px 10px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:865px) {
+    .containers .centerH {
+        font-size: 65px;
+    }
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .navbar-brand {
+    padding-left: 15px;
+}
+
+.custom-toggler .navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    margin: 0;
+    background-image: url(../img/pngwave.png);
+    background-position: center;
+}
+
+#buttonHomepage {
+    width: 20px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}

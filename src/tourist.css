@@ -1,0 +1,74 @@
+.container-fluid {
+    background-color: rgba(242, 255, 204, 0.3);
+}
+
+header {
+    height: 100%;
+}
+
+.containers {
+    background-image: url(../img/monas-1-of-1.jpg);
+    background-size: cover;
+}
+
+.centerH {
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 204, 153);
+}
+
+.center {
+    padding-top: 0;
+}
+
+
+/* General */
+
+section {
+    margin-bottom: 100px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section h2,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caption {
+    font-size: 10px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row img {
+    width: 50%;
+}
+
+.btn {
+    margin: 0;
+    text-align: center;
+}
+
+.btn:visited {
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #333333;
+    background-color: #333333;
+    width: 75%;
+    margin: auto;
+}

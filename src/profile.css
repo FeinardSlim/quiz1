@@ -1,0 +1,111 @@
+header {
+    margin-top: none;
+    background-color: white;
+    height: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.social {
+    padding: 0;
+}
+
+
+/* header */
+
+.containers .centerH {
+    color: lightblue;
+    font-family: 'Chilanka', cursive;
+}
+
+.containers {
+    background-image: url("../img/portofolio.jpg");
+}
+
+@media screen and (max-width:865px) {
+    .containers img {
+        display: none;
+    }
+    .containers .centerH {
+        font-size: 65px;
+    }
+    .containers {
+        background-image: url("../img/portofolio.jpg");
+    }
+}
+
+
+/* main */
+
+.content {
+    text-indent: 25px;
+    text-align: justify;
+    font-family: 'Roboto';
+}
+
+table,
+tr,
+th {
+    font-weight: normal;
+    justify-content: center;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.col-sm-4 {
+    background-color: #3ea2f1;
+    margin: none;
+}
+
+.col-sm-4 p {
+    font-size: 20px;
+}
+
+.col-sm-8 {
+    background-color: #c1e2ee;
+    color: black;
+    margin: none;
+}
+
+.biodata {
+    padding: 5px;
+}
+
+.rounded {
+    width: 150px;
+}
+
+p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.icon {
+    width: 30px;
+}
+
+hr {
+    width: 20%;
+    text-align: left;
+    margin-left: 0;
+    border-width: 2px;
+    color: gray;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-stretch: expanded;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li {
+    text-transform: capitalize;
+}
