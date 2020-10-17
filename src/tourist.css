@@ -8,12 +8,10 @@ header {
 
 .headerContainers {
     background-image: url(../img/monas-1-of-1.jpg);
-    background-size: cover;
 }
 
 .centerH {
     font-family: 'Playfair Display', serif;
-    color: rgb(255, 204, 153);
 }
 
 .center {
