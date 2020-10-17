@@ -57,6 +57,12 @@ p {
 
 .btn {
     background-color: blue;
+    color: white;
+}
+
+.btn:hover {
+    color: aqua;
+    transition: 2s;
 }
 
 .btn:visited {
