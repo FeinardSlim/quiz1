@@ -2,11 +2,15 @@ header {
     height: 100%;
 }
 
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 section {
     padding-bottom: 100px;
 }
 
-.containers {
+.headerContainers {
     background-image: url("../img/Awards-Food.jpg");
     background-position: center;
     background-size: cover;
@@ -20,26 +24,31 @@ section {
     text-align: center;
 }
 
-.container img {
-    height: 150px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.caption {
-    font-size: 10px;
-    text-align: center;
-}
-
-hr {
-    border: none;
-    height: 1px;
-    color: #333333;
-    background-color: #333333;
-    width: 75%;
-    margin: auto;
+.container>div {
+    flex: 1 49%;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
 }
 
 .item {
     width: 100%;
+}
+
+.container p {
+    padding: 10px;
+}
+
+.container img {
+    margin-top: 20px;
+    height: 150px;
 }
 
 .grid1 {
@@ -58,23 +67,16 @@ hr {
     background-color: goldenrod;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
+.caption {
+    font-size: 10px;
+    text-align: center;
 }
 
-.container>div {
-    flex: 0 50%;
-    border: solid;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0.2);
-    box-sizing: border-box
-}
-
-.container p {
-    padding: 10px;
-}
-
-.container img {
-    margin-top: 20px;
+hr {
+    border: none;
+    height: 1px;
+    color: #333333;
+    background-color: #333333;
+    width: 75%;
+    margin: auto;
 }

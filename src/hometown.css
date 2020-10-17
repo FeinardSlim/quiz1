@@ -11,11 +11,11 @@ header {
     height: 100%;
 }
 
-.containers {
+.headerContainers {
     background-image: url("../img/wp1865851-jakarta-wallpapers.jpg");
 }
 
-.containers .centerH {
+.headerContainers .centerH {
     color: whitesmoke;
     font-family: 'Courgette', cursive;
 }
@@ -59,14 +59,26 @@ a:visited {
     display: block;
 }
 
-.row [class*="col-"] {
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}
-
 .row {
     overflow: hidden;
 }
 
+.map-container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
 
-/* testing */
+.embeddedmap-display {
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}

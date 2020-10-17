@@ -6,7 +6,7 @@ header {
     height: 100%;
 }
 
-.containers {
+.headerContainers {
     background-image: url(../img/monas-1-of-1.jpg);
     background-size: cover;
 }

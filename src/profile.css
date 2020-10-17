@@ -17,23 +17,23 @@ body {
 
 /* header */
 
-.containers .centerH {
+.headerContainers .centerH {
     color: lightblue;
     font-family: 'Chilanka', cursive;
 }
 
-.containers {
+.headerContainers {
     background-image: url("../img/portofolio.jpg");
 }
 
 @media screen and (max-width:865px) {
-    .containers img {
+    .headerContainers img {
         display: none;
     }
-    .containers .centerH {
+    .headerContainers .centerH {
         font-size: 65px;
     }
-    .containers {
+    .headerContainers {
         background-image: url("../img/portofolio.jpg");
     }
 }
@@ -59,6 +59,8 @@ th {
 .col-sm-4 {
     background-color: #3ea2f1;
     margin: none;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 .col-sm-4 p {
@@ -69,6 +71,7 @@ th {
     background-color: #c1e2ee;
     color: black;
     margin: none;
+    padding-top: 50px;
 }
 
 .biodata {

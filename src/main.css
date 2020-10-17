@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +71,7 @@ button {
     border: 0;
 }
 
-.containers {
+.headerContainers {
     position: relative;
     text-align: center;
     height: 100%;
@@ -79,7 +80,7 @@ button {
     background-size: cover;
 }
 
-.containers .centerH {
+.headerContainers .centerH {
     position: absolute;
     font-weight: lighter;
     font-size: 120px;
@@ -92,7 +93,7 @@ button {
 }
 
 @media screen and (max-width:865px) {
-    .containers .centerH {
+    .headerContainers .centerH {
         font-size: 65px;
     }
 }
